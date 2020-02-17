@@ -1,0 +1,99 @@
+body{
+    background-color: #f6f6f6;
+    font-family: 'Montserrat', sans-serif;
+    color: #3a3c3e;
+    font-size: 20px;
+}
+
+.backgroundBlockOne{
+    background: url("photo/83939661f46b3da242e6f0a00174f9a4.jpg") no-repeat;
+}
+
+.backgroundBlockTwo{
+    background: url("photo/4b92a67a6a20f7077ec7f079d45c765b.jpg") no-repeat 100% 0;
+}
+
+nav{
+   font-weight: bold;
+    padding: 20px;
+    text-align: right;
+}
+nav>a{
+    padding: 2%;
+}
+nav>a.name{
+    padding: 0 54% 0 0;
+}
+.decor{
+    background-color: #80b07a;
+    height: 10px;
+}
+
+section {
+    margin: 0 20% 2% 20%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1% 3%;
+}
+a {
+    text-decoration: none;
+    color: #3a3c3e;
+}
+
+.aboutMe>p , .command>p{
+    text-align: justify;
+    line-height: 35px;
+}
+
+.insta:hover, .git:hover{
+    color: #51734b;
+}
+
+.info{
+    text-align: left;
+    display: flex;
+    justify-content:space-between ;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+input{
+
+}
+.pointer {
+    cursor: pointer;
+}
+.skillsOll{
+    display: flex;
+    justify-content:space-between ;
+    align-items: stretch;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.skillsOllH2{
+    width: 100%;
+    text-align: center;
+}
+.skill{
+    height: 10px;
+    width: 400px;
+}
+.HTML{
+    background: linear-gradient(to right, #1c3112 80%, #80b07a 80%);
+}
+
+.CSS{
+    background: linear-gradient(to right, #1c3112 65%, #80b07a 65%);
+}
+
+.JS, .Ph{
+    background: linear-gradient(to right, #1c3112 20%, #80b07a 20%);
+}
+
+.SCSS{
+    background: linear-gradient(to right, #1c3112 50%, #80b07a 50%);
+}
+
+.English{
+    background: linear-gradient(to right, #1c3112 30%, #80b07a 30%);
+}
+
